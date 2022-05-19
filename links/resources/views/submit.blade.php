@@ -7,8 +7,6 @@
         <div class="row">
             <form action="/submit" method="post">
                 @csrf
-                <!-- blade conditional that checks 
-                if there are any validation errors -->
                 @if ($errors->any())
                     <div class="alert alert-danger" role="alert">
                         Please fix the following errors
