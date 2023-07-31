@@ -1,4 +1,6 @@
 ## Setting up Laravel
+Note : Before creating the Laravel project, you should ensure that your local machine has PHP and Composer installed.
+
  1. Create a new Laravel project for the  `links` application: 
  `links` is the project name
 			`composer create-project --prefer-dist laravel/laravel links`
