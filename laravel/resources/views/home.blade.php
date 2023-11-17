@@ -24,7 +24,7 @@
     <div style ="border: 3px solid black; padding: 10px">
         <h2>All Posts</h2>
         @foreach ($posts as $post)
-        <div style="background-color: aqua">
+        <div style="background-color: gray">
             <h3>{{$post['title']}} by {{$post->user->name}}</h3> 
             <h3>{{$post['body']}}</h3>
             <p><a href="/edit-post/{{$post->id}}">Edit</a></p>
